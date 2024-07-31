@@ -5,72 +5,72 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 
-const.perguntas = [
+const perguntas = [
     {
-        enunciado: "Pergunta 1"
+        enunciado: "Pergunta 1",
         alternativas: [
             {
-                texto "Alternativa A",
+                texto: "Alternativa A",
                 afirmacao: "afirmacao da alternativa A."
             },
             {
-                texto "Alternativa B",
+                texto: "Alternativa B",
                 afirmacao: "afirmacao da alternativa B."
             }
             
         ]
     },
     {
-        enunciado: "Pergunta 2"
+        enunciado: "Pergunta 2",
         alternativas: [
             {
-                texto "Alternativa A",
+                texto: "Alternativa A",
                 afirmacao: "afirmacao da alternativa A."
             },
             {
-                texto "Alternativa B",
+                texto: "Alternativa B",
                 afirmacao: "afirmacao da alternativa B."
             }
             
         ]
     },
     {
-        enunciado: "Pergunta 3"
+        enunciado: "Pergunta 3",
         alternativas: [
             {
-                texto "Alternativa A",
+                texto: "Alternativa A",
                 afirmacao: "afirmacao da alternativa A."
             },
             {
-                texto "Alternativa B",
+                texto: "Alternativa B",
                 afirmacao: "afirmacao da alternativa B."
             }
             
         ]
     },
     {
-        enunciado: "Pergunta 4"
+        enunciado: "Pergunta 4",
         alternativas: [
             {
-                texto "Alternativa A",
+                texto: "Alternativa A",
                 afirmacao: "afirmacao da alternativa A."
             },
             {
-                texto "Alternativa B",
+                texto: "Alternativa B",
                 afirmacao: "afirmacao da alternativa B."
             }
             
         ]
     },
     {
-        enunciado: "Pergunta 5"
+        enunciado: "Pergunta 5",
         alternativas: [
             {
-                texto "Alternativa A",
+                texto: "Alternativa A",
                 afirmacao: "afirmacao da alternativa A."
             },
             {
-                texto "Alternativa B",
+                texto: "Alternativa B",
                 afirmacao: "afirmacao da alternativa B."
             }
             
@@ -103,14 +103,14 @@ function mostraAlternativas(){
 }
 
 
-fuction RespostaSelecionada(opcaoSelecionada) {
+function RespostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal += afirmacoes + " ";
     atual ++;
     mostraPergunta();
 }
 
-fuction mostraResultado(){
+function mostraResultado(){
     caixaPerguntas.textContent = "De acordo com suas respostas..."
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
