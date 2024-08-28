@@ -7,71 +7,71 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Você acha a IA importante?",
         alternativas: [
             {
-                texto: "Alternativa A",
-                afirmacao: "afirmacao da alternativa A."
+                texto: "Sim",
+                afirmacao: "Boa, a IA é realmente importante."
             },
             {
-                texto: "Alternativa B",
-                afirmacao: "afirmacao da alternativa B."
+                texto: "Não",
+                afirmacao: "Puts, é melhor você conhecer mais sobre a IA."
             }
             
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Quanto você sabe sobre a IA?",
         alternativas: [
             {
-                texto: "Alternativa A",
-                afirmacao: "afirmacao da alternativa A."
+                texto: "Bastante",
+                afirmacao: "Perfeito!."
             },
             {
-                texto: "Alternativa B",
-                afirmacao: "afirmacao da alternativa B."
+                texto: "Pouco",
+                afirmacao: "Você precisa aprender mais."
             }
             
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "A IA ajuda no seu dia-a-dia?",
         alternativas: [
             {
-                texto: "Alternativa A",
-                afirmacao: "afirmacao da alternativa A."
+                texto: "Sim",
+                afirmacao: "Pefeito, a IA é um ótima lugar para pesquisas e ajuda!."
             },
             {
-                texto: "Alternativa B",
-                afirmacao: "afirmacao da alternativa B."
+                texto: "Não",
+                afirmacao: "Tente utiliza-lá!"
             }
             
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "A IA ajuda os alunos nas escolas?",
         alternativas: [
             {
-                texto: "Alternativa A",
-                afirmacao: "afirmacao da alternativa A."
+                texto: "Sim",
+                afirmacao: "Vejamos que sim, pois ela é um ótimo ambiente de pesquisas!"
             },
             {
-                texto: "Alternativa B",
-                afirmacao: "afirmacao da alternativa B."
+                texto: "Não",
+                afirmacao: "A IA pode prejudicar no conhecimento quando usado em grande escala!"
             }
             
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "Você gostou das perguntas?",
         alternativas: [
             {
-                texto: "Alternativa A",
-                afirmacao: "afirmacao da alternativa A."
+                texto: "Sim",
+                afirmacao: "Deus abençoe"
             },
             {
-                texto: "Alternativa B",
-                afirmacao: "afirmacao da alternativa B."
+                texto: "Não.",
+                afirmacao: "Ent ta blz!"
             }
             
         ]
